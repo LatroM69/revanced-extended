@@ -22,8 +22,8 @@ ETC
 - [other countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
+YouTube-Music (arm64-v8a): 5.42.50  
 YouTube: 18.04.35  
 YouTube-Music (arm-v7a): 5.42.50  
-YouTube-Music (arm64-v8a): 5.42.50  
 
 [Main Repo](https://github.com/NoName-exe/revanced-extended)  
