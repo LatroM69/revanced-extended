@@ -58,8 +58,8 @@ Notice
   
 **App Versions:**  
 YouTube: 18.06.35  
-YouTube-Music (arm-v7a): 5.44.53  
 YouTube-Music (arm64-v8a): 5.44.53  
+YouTube-Music (arm-v7a): 5.44.53  
 
 Install [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases) to be able to use non-root YouTube or YouTube-Music  
 
