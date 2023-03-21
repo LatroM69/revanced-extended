@@ -1,15 +1,21 @@
 CLI: revanced-cli-2.21.0-all.jar  
-Integrations: revanced-integrations-0.100.1.apk  
-Patches: revanced-patches-2.165.1.jar  
+Integrations: revanced-integrations-0.100.8.apk  
+Patches: revanced-patches-2.166.8.jar  
 
 YouTube
 ==
-- fix: issues with protobuf https://github.com/inotia00/ReVanced_Extended/issues/480 https://github.com/inotia00/ReVanced_Extended/issues/484
-- refactor(protobuf-spoof): integrated into settings
-- refactor(protobuf-spoof): set to off by default
-- feat(general-ads): hide new type of ad
+- fix: captions are disabled in Shorts when `hide-auto-captions` patch is enabled https://github.com/inotia00/ReVanced_Extended/issues/484
+- fix: `protobuf-spoof` patch not working in YouTube notifications section https://github.com/inotia00/ReVanced_Extended/issues/509
+- fix: splash icon not applying on Android 12+ devices
+- refactor(protobuf-spoof): add more protobuf spoof targets
 - crowdin translation update
-`Arabic`, `French`, `Greek`, `Indonesian`, `Korean`, `Spanish`, `Ukrainian`, `Vietnamese`
+`Indonesian`, `Italian`, `Korean`, `Polish`, `Russian`, `Ukrainian`, `Vietnamese`
+
+
+YouTube Music
+==
+- crowdin translation update
+`Korean`
 
 
 ※ Compatible ReVanced Manager: v0.0.57
@@ -21,8 +27,8 @@ YouTube
   
 **App Versions:**  
 YouTube-Music (arm64-v8a): 5.48.52  
-YouTube: 18.08.39  
 YouTube-Music (arm-v7a): 5.48.52  
+YouTube: 18.08.39  
 
 Install [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases) to be able to use non-root YouTube or YouTube-Music  
 
