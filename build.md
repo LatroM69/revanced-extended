@@ -24,9 +24,9 @@ ETC
 - [Other Countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
+YouTube: 18.11.35  
 YouTube-Music (arm64-v8a): 5.49.54  
 YouTube-Music (arm-v7a): 5.49.54  
-YouTube: 18.08.39  
 
 Install [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases) to be able to use non-root YouTube or YouTube-Music  
 
