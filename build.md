@@ -1,19 +1,21 @@
 CLI: revanced-cli-2.21.0-all.jar  
-Integrations: revanced-integrations-0.101.12.apk  
-Patches: revanced-patches-2.168.12.jar  
+Integrations: revanced-integrations-0.101.18.apk  
+Patches: revanced-patches-2.168.18.jar  
 
 YouTube
 ==
-- improve(overlay-button): remove the animation of the button showing after tapping the seekbar https://github.com/inotia00/ReVanced_Extended/issues/631
-- fix(hide-shorts-component): subscribe button sometimes not hidden after playing general video https://github.com/inotia00/ReVanced_Extended/issues/639
-- fix(protobuf-spoof): subtitles are still on top in some videos https://github.com/inotia00/ReVanced_Extended/issues/636
-- fix(sponsorblock): autoplay stops when sponsorblock skips at the end of the video https://github.com/inotia00/ReVanced_Extended/issues/547
-- fix(sponsorblock): slight delay when the device wakes up from deep sleep if the current video speed is not 1.0x
-- refactor(protobuf-spoof): add support protobuf spoofing in feeds https://github.com/inotia00/ReVanced_Extended/issues/633
-- remove `Hide official cards` setting (removed from server side)
-- update ad filter
+- add `Hide official header` settings https://github.com/inotia00/ReVanced_Extended/issues/445
+- fix: history menu in library sometimes disappears in tablet layout
+- fix: `Hide channel avatar section` setting is not disabled in tablet layout
+- refactor(settings): replaced `adremover` label to `hide` in layout setting
 - crowdin translation update
-`Bulgarian`, `Chinese Traditional`, `Indonesian`, `Italian`, `Polish`, `Portuguese (Brazilian)`, `Turkish`, `Vietnamese`
+`Arabic`, `Bulgarian`, `French`, `German`, `Italian`, `Japanese`, `Korean`, `Russian`, `Spanish`, `Ukrainian`, `Vietnamese`
+
+
+YouTube Music
+==
+- add `enable-compact-dialog` patch
+- add `hide-new-playlist` patch https://github.com/inotia00/ReVanced_Extended/issues/185
 
 
 ※ Compatible ReVanced Manager: v0.0.57
@@ -25,8 +27,6 @@ YouTube
   
 **App Versions:**  
 YouTube: 18.12.35  
-YouTube-Music (arm64-v8a): 5.50.53  
-YouTube-Music (arm-v7a): 5.50.53  
 
 Install [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases) to be able to use non-root YouTube or YouTube-Music  
 
