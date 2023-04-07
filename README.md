@@ -11,16 +11,16 @@ Get the [latest CI release](https://github.com/NoName-exe/revanced-extended/rele
  * Cleans APKs from unneeded libs to make them smaller.
  * Fully open-source, every binary or APK is compiled without human intervention.
  * Modules:
-     * Recompile invalidated odex for YouTube and YouTube-Music for faster usage.
+     * Recompile invalidated odex for YouTube and for faster usage.
      * Receive updates from Magisk app.
      * Should not break safetynet or trigger root detections used by certain apps.
      * Handle installation of the correct version of the stock app and all that.
 
  ## Notes
 * YouTube Magisk Module is installed as a system app and requires a reboot to install/update.
-* YouTube-Music Magisk Module is installed as a user app and does not require a reboot to install/update.
-* Use [mindetach](https://github.com/j-hc/mindetach-magisk) to block Play Store from updating YouTube and YouTube-Music.
-* Non-root versions of YouTube and YouTube-Music require [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases/latest) to work.
+* Use [mindetach](https://github.com/j-hc/mindetach-magisk) to block Play Store from updating YouTube.
+* Non-root versions of YouTube require [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases/latest) to work.
+* For YouTube Music, use better FOSS apps like [InnerTune](https://github.com/z-huang/InnerTune), [ViMusic](https://github.com/vfsfitvnm/ViMusic), [VibeMusic](https://github.com/sheikhhaziq/vibemusic), [Harmonoid](https://github.com/harmonoid/harmonoid), [BlackHole](https://github.com/Sangwan5688/BlackHole)
 
 ## Credits
 [j-hc](https://github.com/j-hc) for [mindetach](https://github.com/j-hc/mindetach-magisk) and the [script on which this is based on](https://github.com/j-hc/revanced-magisk-module).
