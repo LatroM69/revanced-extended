@@ -29,7 +29,7 @@ ETC
 - [Other Countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-YouTube: 18.14.41  
+YouTube: 18.14.40  
 
 Install [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases) to be able to use non-root YouTube or YouTube-Music  
 
