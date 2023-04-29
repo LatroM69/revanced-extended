@@ -1,20 +1,30 @@
 CLI: revanced-cli-2.21.0-all.jar  
-Integrations: revanced-integrations-0.102.1.apk  
-Patches: revanced-patches-2.168.40.jar  
+Integrations: revanced-integrations-0.105.2.apk  
+Patches: revanced-patches-2.171.2.jar  
 
 YouTube
 ==
-- fix(general-ads): `Hide general ads` hides offline download list
+- feat(protobuf-spoof): change default value to ON
+- fix(hide-email-address): add space between address and bracket https://github.com/inotia00/ReVanced_Extended/issues/886
+- fix(protobuf-spoof): subtitles are on top https://github.com/inotia00/ReVanced_Extended/issues/875
+- fix(sponsorblock): video-id-hook should be applied last
+- refactor(force-vp9-codec): integrate `lift-vertical-video-restriction` patch https://github.com/inotia00/ReVanced_Extended/issues/883
 - crowdin translation update
-`French`, `Polish`
+`Chinese Traditional`, `French`, `German`, `Greek`, `Italian`, `Japanese`, `Polish`, `Russian`, `Spanish`, `Turkish`, `Ukrainian`, `Vietnamese`
 
 
 YouTube Music
 ==
-- add `share-button-hook` patch (Experimental Flags)
-: Replace share button with external download button. The package name of the default downloader can be changed through `options.toml`. (Default: PowerTube)
-- refactor(hide-new-playlist): apply a much safer patching method (also fix https://github.com/inotia00/ReVanced_Extended/issues/685)
-- refactor(hide-upgrade-button): hide upgrade banner from homepage
+- feat(music-settings): update strings resources
+- fix: `music-microg-support` patch causes YT settings to crash https://github.com/inotia00/ReVanced_Extended/issues/874
+- fix(remember-video-quality): patch description is missing
+- crowdin translation update
+`Chinese Traditional`, `French`, `Greek`, `Polish`, `Spanish`, `Turkish`, `Vietnamese`
+
+
+ETC
+==
+- build: update dependencies
 
 
 ※ Compatible ReVanced Manager: v0.0.57
@@ -25,7 +35,7 @@ YouTube Music
 - [Other Countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-YouTube: 18.14.41  
+YouTube: 18.16.37  
 
 Install [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases) to be able to use non-root YouTube or YouTube-Music  
 
