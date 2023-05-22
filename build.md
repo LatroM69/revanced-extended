@@ -1,23 +1,24 @@
 CLI: revanced-cli-2.22.0-all.jar  
-Integrations: revanced-integrations-0.107.6.apk  
-Patches: revanced-patches-2.173.6.jar  
+Integrations: revanced-integrations-0.107.10.apk  
+Patches: revanced-patches-2.173.10.jar  
 
 YouTube
 ==
-- refactor: simplify casting instructions
-- remove dummy code
-- feat(youtube/custom-seekbar-color): remove patch options, integrate into settings
-- feat(youtube/hide-general-ads): integrate `Hide buttoned ad` into `Hide general ads`
-- feat(youtube/hide-general-ads): integrate some byte buffer filters
-- fix(youtube/hide-general-ads): don't filter for `reels_player_overlay`
-- fix(youtube/default-video-quality): fix default video quality/speed being applied when resuming app
+- feat(youtube/default-video-quality): rollback to previous commit
+- feat(youtube/hide-general-ads): added some exceptions
+- feat(youtube/hide-seekbar): updated patch description https://github.com/inotia00/ReVanced_Extended/issues/1013
+- fix(youtube/protobuf-spoof): playing a clip will play the video from the start https://github.com/inotia00/ReVanced_Extended/issues/999
+- fix(youtube/protobuf-spoof): subtitles appear at top when you watch related shorts https://github.com/inotia00/ReVanced_Extended/issues/1011
+- fix(youtube/sponsorblock): not reflected in the patch information
 - feat(youtube/translations): update translation
-`Arabic`, `Bengali`, `Brazilian`, `Bulgarian`, `Chinese Traditional`, `French`, `German`, `Greek`, `Indonesian`, `Italian`, `Japanese`, `Korean`, `Polish`, `Russian`, `Turkish`, `Ukrainian`, `Vietnamese`
+`Chinese Simplified`, `Greek`, `Indonesian`, `Italian`, `Japanese`, `Russian`, `Spanish`, `Vietnamese`
 
 
-ETC
+YouTube Music
 ==
-- build: bump patcher to 7.1.1
+- feat(music/hide-new-playlist-button): change patch name https://github.com/inotia00/ReVanced_Extended/issues/983
+- feat(music/translations): update translation
+`Chinese Simplified`
 
 
 ※ Compatible ReVanced Manager: v1.1.0
@@ -26,7 +27,7 @@ ETC
 - [Other Countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-YouTube: 18.16.39  
+YouTube: 18.17.43  
 
 Install [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases) to be able to use non-root YouTube or YouTube-Music  
 
