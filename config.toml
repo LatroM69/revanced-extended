@@ -14,29 +14,24 @@ enabled = true
 build-mode = "both"                                                   # 'both', 'apk' or 'module'
 excluded-patches = "microg-support custom-branding-icon-red custom-branding-icon-blue custom-branding-icon-revancify-red custom-branding-icon-revancify-blue custom-branding-name theme"                                                 # whitespace seperated list of patches to exclude (multiline strings are not supported)
 included-patches = "materialyou force-premium-heading"                                                 # whitespace seperated list of patches to include
-version = "18.24.37"                                                      # 'auto', 'latest' or a custom one like '17.40.41'
+version = "auto"                                                      # 'auto', 'latest' or a custom one like '17.40.41'
 exclusive-patches = false                                             # excludes all patches by default
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "ytrvx-magisk"
 
 [Music-arm64]
-enabled = false 
+enabled = true 
 build-mode = "both"
 app-name = "YouTube-Music"
-excluded-patches = ""
+excluded-patches = "microg-support custom-branding-icon-mmt custom-branding-icon-revancify-blue custom-branding-icon-revancify-red custom-branding-music-name"
 included-patches = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 module-prop-name = "ytmusicrvx-magisk"
 arch = "arm64-v8a"
 
-[Music-arm]
-enabled = false
-build-mode = "both"
-app-name = "YouTube-Music"
-excluded-patches = ""
-included-patches = ""
+[Reddit]
+enabled = true
+build-mode = "apk"
 version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-module-prop-name = "ytmusicrvx-arm-magisk"
-arch = "arm-v7a"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
