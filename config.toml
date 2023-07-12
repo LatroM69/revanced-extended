@@ -29,6 +29,7 @@ apkmirror-arch = "arm64-v8a"
 
 [Reddit]
 enabled = true
+build-mode = "apk"
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 version = "auto"
 excluded-patches = "hide-create-button hide-discover-button"
