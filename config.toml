@@ -10,22 +10,22 @@ rv-brand = "ReVanced eXXXtended"
 
 [YouTube]
 enabled = true
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "both"
-version = "auto"
 included-patches = "add-splash-animation force-premium-heading materialyou"
 excluded-patches = "custom-branding-icon-revancify-blue custom-package-name microg-support spoof-app-version theme"
+version = "auto"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "ytrvx-magisk"
 
-[YouTube Music]
+[Music]
 enabled = true
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 build-mode = "both"
-version = "auto"
 included-patches = "custom-branding-music-name"
 excluded-patches = "custom-branding-icon-revancify-blue custom-package-name enable-old-style-miniplayer spoof-app-version"
+version = "auto"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 module-prop-name = "ytm-rvx"
-
+apkmirror-arch = "arm64-v8a"
 
 [Reddit]
 enabled = true
