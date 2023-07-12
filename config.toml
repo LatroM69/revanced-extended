@@ -3,26 +3,37 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 build-mindetach-module = false
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
-rv-brand = "ReVanced eXtended"
+rv-brand = "ReVanced eXXXtended"
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
-build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = ""                                                 # whitespace seperated list of patches to exclude (multiline strings are not supported)
-included-patches = ""                                                 # whitespace seperated list of patches to include
+enabled = true
+build-mode = "both"
+app-name = "YouTube"                                                   # 'both', 'apk' or 'module'
+excluded-patches = "microg-support custom-branding-icon-red custom-branding-icon-blue custom-branding-icon-revancify-red custom-branding-icon-revancify-blue custom-branding-name theme custom-branding-icon-mmt custom-package-name"                                                 # whitespace seperated list of patches to exclude (multiline strings are not supported)
+included-patches = "materialyou force-premium-heading add-splash-animation custom-branding-youtube-name"                                                 # whitespace seperated list of patches to include
 version = "auto"                                                      # 'auto', 'latest' or a custom one like '17.40.41'
 exclusive-patches = false                                             # excludes all patches by default
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-module-prop-name = "yt-rvx"
+module-prop-name = "ytrvx-magisk"
 
 [Music]
 build-mode = "both"
 app-name = "YouTube-Music"
-excluded-patches = ""
-included-patches = ""
+excluded-patches = "custom-branding-icon-mmt custom-branding-icon-revancify-blue custom-branding-icon-revancify-red custom-package-name microg-support"
+included-patches = "custom-branding-music-name"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 module-prop-name = "ytm-rvx"
-arch = "both"
+arch = "arm64-v8a"
+
+[Reddit]
+enabled = true
+build-mode = "apk"
+app-name = "Reddit"
+excluded-patches = "hide-create-button hide-discover-button"	
+included-patches =
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
