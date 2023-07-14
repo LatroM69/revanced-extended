@@ -8,18 +8,6 @@
         "value": "YouTube"
       }
     ]
-  },
-  {
-    "patchName": "custom-branding-music-name",
-    "options": [
-      {
-        "key": "MusicLongName",
-        "value": "YouTube Music"
-      },
-      {
-        "key": "MusicShortName",
-        "value": "YouTube Music"
-      }
-    ]
   }
 ]
+        
