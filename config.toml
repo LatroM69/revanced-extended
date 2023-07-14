@@ -11,7 +11,7 @@ rv-brand = "ReVanced eXXXtended"
 [YouTube]
 enabled = true
 build-mode = "both"
-included-patches = "add-splash-animation force-premium-heading materialyou"
+included-patches = "add-splash-animation force-premium-heading materialyou custom-branding-youtube-name"
 excluded-patches = "custom-branding-icon-revancify-blue custom-package-name microg-support spoof-app-version theme"
 version = "auto"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
