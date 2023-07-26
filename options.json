@@ -1,1 +1,26 @@
-[]
+        
+[
+  {
+    "patchName": "Custom branding YouTube name",
+    "options": [
+      {
+        "key": "YouTubeAppName",
+        "value": "YouTube"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding Music name",
+    "options": [
+      {
+        "key": "MusicLongName",
+        "value": "YouTube Music"
+      },
+      {
+        "key": "MusicShortName",
+        "value": "YouTube Music"
+      }
+    ]
+  }
+]
+        
