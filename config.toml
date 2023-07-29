@@ -28,3 +28,8 @@ version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 module-prop-name = "ytm-rvx"
 
+[Reddit]
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+included-patches = "disable-screenshot-popup hide-ads premium-icon-reddit sanitize-sharing-links"
+exclusive-patches = false
+version = "auto"
