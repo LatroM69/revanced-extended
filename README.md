@@ -33,5 +33,3 @@ Get the [latest CI release](https://github.com/NoName-exe/revanced-extended/rele
 [j-hc](https://github.com/j-hc) for [mindetach](https://github.com/j-hc/mindetach-magisk) and the [script on which this is based on](https://github.com/j-hc/revanced-magisk-module).
 
 [inotia00](https://github.com/inotia00) for [Vanced MicroG](https://github.com/inotia00/VancedMicroG) and [mMicroG](https://github.com/inotia00/mMicroG).
-
-[Gnad Gnaoh](https://github.com/gnadgnaoh) for helping me figure some stuff out.
