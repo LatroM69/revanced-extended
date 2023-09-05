@@ -26,7 +26,7 @@ Get the [latest CI release](https://github.com/NoName-exe/revanced-extended/rele
      * Support Magisk and KernelSU.
 
  ## Notes
-* Use [mindetach](https://github.com/j-hc/zygisk-detach) to block Play Store from updating YouTube and YouTube-Music.
+* Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to block Play Store from updating YouTube and YouTube-Music.
 * Non-root versions of YouTube and YouTube-Music require [mMicroG](https://github.com/ayushTNM/mMicroG/releases/latest) to work.
 
 ## Credits
