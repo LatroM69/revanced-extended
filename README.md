@@ -6,6 +6,14 @@
 
 Get the [latest CI release](https://github.com/NoName-exe/revanced-extended/releases/latest).
 
+## Key differences from NoName's fork
+* Monet is enabled (material you)
+* Amoled is disabled, for monet colors
+* HDR enabled
+* Splash animation
+* Original name and icon (fuck those shitty community icons)
+* New UI (spoof-app-version patch is excluded)
+
 ## Features
  * Updated with the latest versions of patches.
  * Cleans APKs from unneeded libs to make them smaller.
