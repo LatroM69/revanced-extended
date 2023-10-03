@@ -1,5 +1,5 @@
-YouTube: 18.31.40  
-Music: 6.20.51  
+YouTube: 18.33.40  
+Music: 6.21.51  
 Reddit: 2023.38.0  
 
 Install [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases) or [mMicroG](https://github.com/inotia00/mMicroG/releases) to be able to use non-root YouTube or YouTube-Music  
@@ -8,53 +8,42 @@ Install [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases) or [m
 
 ---
 Changelog:  
-CLI: inotia00/revanced-cli-3.1.2-all.jar  
-Integrations: inotia00/revanced-integrations-0.117.12.apk  
-Patches: inotia00/revanced-patches-2.190.12.jar  
+CLI: inotia00/revanced-cli-3.1.4-all.jar  
+Integrations: inotia00/revanced-integrations-0.117.18.apk  
+Patches: inotia00/revanced-patches-2.190.18.jar  
 
 YouTube
 ==
-- fix(integration): apply more precise class names
-- fix(integration): no longer override User-Agent when sending request
-- fix(youtube/append-time-stamps-information): when the video quality is set to `Auto`, the quality is not displayed properly
-- fix(youtube/hide-feed-flyout-panel): no longer overwrites default values https://github.com/inotia00/ReVanced_Extended/issues/1402
-- fix(youtube/hide-info-cards): block new type of infocards https://github.com/inotia00/ReVanced_Extended/issues/1406
-- fix(youtube/hide-suggestions-shelf): does not work on tablet https://github.com/inotia00/ReVanced_Extended/issues/1398
-- fix(youtube/overlay-buttons): wrong formatted timestamps copied
-- fix(youtube/settings): apply correct strings resource https://github.com/inotia00/ReVanced_Extended/issues/1392
-- fix(youtube/settings): when rebooting from the AlertDialog displayed when first installed, reboot does not work properly
-- fix(youtube/spoof-player-parameters): `Ambient mode`, `Clip`, `FilmStrip overlay`, `Thumbnail preview in SeekBar` does not working
-- fix(youtube/spoof-player-parameters): remove dependencies that are no longer used
+- feat(youtube): add support version `v18.33.40`
+- feat(youtube/custom-speed-overlay): change patch name `hide-speed-overlay` → `custom-speed-overlay`
+- feat(youtube/custom-speed-overlay): editable speed value that changes while holding down (a/b tests)
+- feat(youtube/spoof-app-version): change some target versions
+- feat(youtube/spoof-player-parameters): update Known Issue https://github.com/inotia00/ReVanced_Extended/issues/1451
+- fix(youtube/hide-button-container): `Hide like button` and `Hide dislike button` are not integrated https://github.com/inotia00/ReVanced_Extended/issues/1454
+- fix(youtube/hide-endscreen-cards): wrong method name
+- fix(youtube/hide-layout-components): wrong description - `Hide notify me button` https://github.com/inotia00/ReVanced_Extended/issues/1436
+- fix(youtube/hide-mix-playlists): when MixPlaylists are included in my playlist (library), all playlists are hidden
+- fix(youtube/navbar-index-hook): match to PR branch
+- fix(youtube/settings): new layout does not load normally when rebooted through the reboot dialog that is shown when first installed
+- fix(youtube/settings): remove unused code
+- fix(youtube/settings): some patch descriptions and settings are not properly labeled https://github.com/inotia00/ReVanced_Extended/issues/1407
+- fix(youtube/spoof-player-parameters): fix some bugs https://github.com/inotia00/ReVanced_Extended/issues/1437 https://github.com/inotia00/ReVanced_Extended/issues/1444 https://github.com/inotia00/ReVanced_Extended/issues/1449 
 - feat(youtube/translations): update translation
-`Arabic`, `Brazilian`, `Chinese Traditional`, `Greek`, `Korean`, `Russian`, `Spanish`, `Vietnamese`
+`Arabic`, `Bengali`, `Chinese Traditional`, `French`, `Greek`, `Hungarian`, `Italian`, `Japanese`, `Korean`, `Polish`, `Russian`, `Spanish`, `Turkish`, `Ukrainian`, `Vietnamese`
 
 
 YouTube Music
 ==
-- feat(music): add support version `v6.20.51`
-- feat(music): add `remember-repeat-state` patch
-- feat(music): add `remember-shuffle-state` patch
-- feat(music): remove `enable-force-shuffle` patch
-- feat(music/hide-flyout-panel): add setting to hide podcast-related menus
-- feat(music/litho-filter): no longer uses `identifier` parameter
-- fix(music/exclusive-audio-playback): switch didn't actually work
-- fix(music/import-export-settings): integrated into `settings` patch https://github.com/inotia00/ReVanced_Extended/issues/1391
+- fix(music/enable-playback-speed): excluding enable playback speed patch still shows playback speed icon in the flyout menu https://github.com/inotia00/ReVanced_Extended/issues/1458
+- fix(music/hook-download-button): change the URL format used when launching external downloads https://github.com/inotia00/ReVanced_Extended/issues/1460
 - feat(music/translations): update translation
-`Chinese Traditional`, `French`, `Greek`, `Indonesian`, `Korean`, `Polish`, `Russian`, `Spanish`, `Vietnamese`
+`Brazilian`, `Dutch`, `Greek`, `Italian`, `Korean`, `Polish`, `Russian`
 
 
-Etc
-==
-- build: bump dependencies
-- some side effects of the `spoof-player-parameter` patch have been fixed
-- following known issues remain:
-• Enhanced bitrate is not available
-• Offline downloads may not work
-• SeekBar thumbnail preview quality is very low
-
-
-※ Compatible ReVanced Manager: [RVX Manager v1.9.7 (fork)](https://github.com/inotia00/revanced-manager/releases/tag/v1.9.7)
+※ Compatible ReVanced Manager: [RVX Manager v1.10.3 (fork)](https://github.com/inotia00/revanced-manager/releases/tag/v1.10.3)
 [Crowdin translation]
+- [YouTube/European Countries](https://crowdin.com/project/revancedextendedeu)
+- [YouTube/Other Countries](https://crowdin.com/project/revancedextended)
 - [YT Music](https://crowdin.com/project/revanced-music-extended)
 
 ---  
