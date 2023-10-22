@@ -1,49 +1,13 @@
-YouTube: 18.33.40  
-Music: 6.21.51  
-Reddit: 2023.38.0  
+YouTube: 18.40.34  
+Music: 6.23.54  
 
-Install [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases) or [mMicroG](https://github.com/inotia00/mMicroG/releases) to be able to use non-root YouTube or YouTube-Music  
+Install [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases) or [mMicroG](https://github.com/inotia00/mMicroG/releases) to be able to use non-root YouTube or YouTube-Music.  
+Use [mindetach](https://github.com/j-hc/mindetach-magisk) or [zygisk-detach](https://github.com/j-hc/zygisk-detach) to block Play Store from updating YouTube and YouTube-Music.  
 
 [Main Repo](https://github.com/NoName-exe/revanced-extended)  
 
----
 Changelog:  
-CLI: inotia00/revanced-cli-3.1.4-all.jar  
-Integrations: inotia00/revanced-integrations-0.117.18.apk  
-Patches: inotia00/revanced-patches-2.190.18.jar  
-
-YouTube
-==
-- feat(youtube): add support version `v18.33.40`
-- feat(youtube/custom-speed-overlay): change patch name `hide-speed-overlay` → `custom-speed-overlay`
-- feat(youtube/custom-speed-overlay): editable speed value that changes while holding down (a/b tests)
-- feat(youtube/spoof-app-version): change some target versions
-- feat(youtube/spoof-player-parameters): update Known Issue https://github.com/inotia00/ReVanced_Extended/issues/1451
-- fix(youtube/hide-button-container): `Hide like button` and `Hide dislike button` are not integrated https://github.com/inotia00/ReVanced_Extended/issues/1454
-- fix(youtube/hide-endscreen-cards): wrong method name
-- fix(youtube/hide-layout-components): wrong description - `Hide notify me button` https://github.com/inotia00/ReVanced_Extended/issues/1436
-- fix(youtube/hide-mix-playlists): when MixPlaylists are included in my playlist (library), all playlists are hidden
-- fix(youtube/navbar-index-hook): match to PR branch
-- fix(youtube/settings): new layout does not load normally when rebooted through the reboot dialog that is shown when first installed
-- fix(youtube/settings): remove unused code
-- fix(youtube/settings): some patch descriptions and settings are not properly labeled https://github.com/inotia00/ReVanced_Extended/issues/1407
-- fix(youtube/spoof-player-parameters): fix some bugs https://github.com/inotia00/ReVanced_Extended/issues/1437 https://github.com/inotia00/ReVanced_Extended/issues/1444 https://github.com/inotia00/ReVanced_Extended/issues/1449 
-- feat(youtube/translations): update translation
-`Arabic`, `Bengali`, `Chinese Traditional`, `French`, `Greek`, `Hungarian`, `Italian`, `Japanese`, `Korean`, `Polish`, `Russian`, `Spanish`, `Turkish`, `Ukrainian`, `Vietnamese`
-
-
-YouTube Music
-==
-- fix(music/enable-playback-speed): excluding enable playback speed patch still shows playback speed icon in the flyout menu https://github.com/inotia00/ReVanced_Extended/issues/1458
-- fix(music/hook-download-button): change the URL format used when launching external downloads https://github.com/inotia00/ReVanced_Extended/issues/1460
-- feat(music/translations): update translation
-`Brazilian`, `Dutch`, `Greek`, `Italian`, `Korean`, `Polish`, `Russian`
-
-
-※ Compatible ReVanced Manager: [RVX Manager v1.10.3 (fork)](https://github.com/inotia00/revanced-manager/releases/tag/v1.10.3)
-[Crowdin translation]
-- [YouTube/European Countries](https://crowdin.com/project/revancedextendedeu)
-- [YouTube/Other Countries](https://crowdin.com/project/revancedextended)
-- [YT Music](https://crowdin.com/project/revanced-music-extended)
-
----  
+CLI: j-hc/revanced-cli-4.0.2-all.jar  
+Integrations: inotia00/revanced-integrations-0.120.1.apk  
+Patches: inotia00/revanced-patches-2.195.1.jar  
+[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v2.195.1)  
