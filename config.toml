@@ -11,7 +11,7 @@ rv-brand = "lat rvx"
 
 [YouTube]
 build-mode = "both"
-included-patches = "add-splash-animation materialyou"
+included-patches = "'add-splash-animation' 'materialyou'"
 excluded-patches = "'custom-branding-icon-revancify-blue' 'custom-package-name' 'disable-hdr-video' 'microg-support' 'spoof-app-version' 'spoof-player-parameters' 'theme translations'"
 version = "auto"                                                      # 'auto', 'latest' or a custom one like '17.40.41'
 exclusive-patches = false                                             # excludes all patches by default
