@@ -11,7 +11,7 @@ rv-brand = "lat rvx"
 [YouTube]
 build-mode = "both"
 included-patches = "'add-splash-animation' 'MaterialYou'"
-excluded-patches = "'Custom branding icon Revancify blue' 'Custom branding icon Revancify red' 'Custom branding icon MMT' 'custom-package-name' 'disable-hdr-video' 'microg-support' 'spoof-app-version' 'spoof-player-parameters' 'theme' 'translations'"
+excluded-patches = "'Custom branding icon Revancify blue' 'Custom branding icon Revancify red' 'Custom branding icon MMT' 'custom-package-name' 'disable-hdr-video' 'microg-support' 'spoof-app-version' 'spoof-player-parameters' 'Theme' 'translations'"
 version = "auto"                                                      # 'auto', 'latest' or a custom one like '17.40.41'
 exclusive-patches = false                                             # excludes all patches by default
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
