@@ -1,1 +1,17 @@
-
+        
+[
+  {
+    "patchName": "Custom package name",
+    "options": [
+      {
+        "key": "PackageNameYouTube",
+        "value": "yt.rvx.latrom"
+      },
+      {
+        "key": "PackageNameYouTubeMusic",
+        "value": "ytm.rvx.latrom"
+      }
+    ]
+  }
+]
+        
