@@ -11,8 +11,8 @@ rv-brand = "lat rvx"
 
 [YouTube]
 build-mode = "both"
-included-patches = "'Enable new splash animation' 'MaterialYou'"
-excluded-patches = "'Custom branding icon MMT' 'add-splash-animation' 'Custom branding icon Revancify Red' 'Custom branding icon Revancify Blue' 'Custom package name' 'Enable debug logging' 'Disable HDR video' 'MicroG support' 'Spoof app version' 'Spoof player parameters' 'theme' 'Translations' 'Custom branding name YouTube'"
+included-patches = "'Enable new splash animation' 'MaterialYou' 'MicroG support'"
+excluded-patches = "'Custom branding icon MMT' 'add-splash-animation' 'Custom branding icon Revancify Red' 'Custom branding icon Revancify Blue' 'Custom package name' 'Enable debug logging' 'Disable HDR video' 'Spoof app version' 'Spoof player parameters' 'Theme' 'Translations' 'Custom branding name YouTube'"
 version = "auto"                                                      # 'auto', 'latest' or a custom one like '17.40.41'
 exclusive-patches = false                                             # excludes all patches by default
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
@@ -23,7 +23,7 @@ build-mode = "both"
 app-name = "YouTube-Music"
 apkmirror-arch = "arm64-v8a"
 build-mode = "both"
-excluded-patches = "'Custom branding icon MMT' 'Custom branding icon Revancify Red' 'Custom branding icon Revancify Blue' 'Custom package name' 'MicroG support' 'Spoof app version' 'Translations' 'Custom branding name YouTube Music'"
+excluded-patches = "'Custom branding icon MMT' 'Custom branding icon Revancify Red' 'Custom branding icon Revancify Blue' 'Custom package name' 'Spoof app version' 'Translations' 'Custom branding name YouTube Music'"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 module-prop-name = "ytm-rvx"
