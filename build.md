@@ -1,4 +1,4 @@
-YouTube: 18.45.41  
+YouTube: 18.45.43  
 Music: 6.28.52  
 Reddit: 2023.45.0  
 
@@ -9,6 +9,6 @@ Use [mindetach](https://github.com/j-hc/mindetach-magisk) or [zygisk-detach](htt
 
 Changelog:  
 CLI: inotia00/revanced-cli-4.2.1-all.jar  
-Integrations: inotia00/revanced-integrations-0.123.1.apk  
-Patches: inotia00/revanced-patches-2.199.1.jar  
-[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v2.199.1)  
+Integrations: inotia00/revanced-integrations-0.124.1.apk  
+Patches: inotia00/revanced-patches-2.201.1.jar  
+[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v2.201.1)  
