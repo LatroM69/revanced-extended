@@ -1,5 +1,4 @@
-YouTube: 19.02.39  
-Reddit: 2024.04.0  
+Reddit: 2024.07.0  
 
 Install [Vanced Microg](https://github.com/inotia00/VancedMicroG/releases) or [mMicroG](https://github.com/inotia00/mMicroG/releases) to be able to use non-root YouTube or YouTube-Music.  
 Use [mindetach](https://github.com/j-hc/mindetach-magisk) or [zygisk-detach](https://github.com/j-hc/zygisk-detach) to block Play Store from updating YouTube and YouTube-Music.  
@@ -8,6 +7,6 @@ Use [mindetach](https://github.com/j-hc/mindetach-magisk) or [zygisk-detach](htt
 
 Changelog:  
 CLI: inotia00/revanced-cli-4.4.1-all.jar  
-Integrations: inotia00/revanced-integrations-0.140.1.apk  
-Patches: inotia00/revanced-patches-2.220.1.jar  
-[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v2.220.1)  
+Integrations: YT-Advanced/revanced-integrations-0.144.2.apk  
+Patches: YT-Advanced/revanced-patches-2.220.6.jar  
+[Changelog](https://github.com/YT-Advanced/ReX-patches/releases/tag/v2.220.6)  
